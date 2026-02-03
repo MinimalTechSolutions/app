@@ -1,0 +1,56 @@
+{
+  "name": "minimal-dao-landing",
+  "version": "1.0.0",
+  "description": "MTS-DAO: The Minimalist Gateway - High-performance landing page for Minimal Technology Solutions",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "analyze": "ANALYZE=true next build"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.263.1",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.33",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^15.1.0",
+    "prettier": "^3.2.4",
+    "@next/bundle-analyzer": "^15.1.0"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "minimal-dao",
+    "minimalism",
+    "nextjs",
+    "typescript",
+    "ai-security",
+    "saas",
+    "landing-page"
+  ],
+  "overrides": {
+  "lucide-react": {
+    "react": "$react"
+    }
+  },
+  "author": "Minimal Technology Solutions",
+  "license": "AGPL-3.0"
+}
